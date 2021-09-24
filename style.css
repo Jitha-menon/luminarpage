@@ -1,28 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-.main{
+header{
     width: 100%;
-    height: 35px;
+    height: 38px;
     background-color:#5e068a;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: bold; 
     display: flex;
-    justify-content: space-between;    
+    align-items: center;         
 }
-
-.header-top{
-   line-height: 3;
-}
-.align{
-
-    position: relative;
-    left: 55%;
- }
-
-
- 
 .navbar-brand{
     max-width: 100%;
     vertical-align: middle;
@@ -184,4 +172,23 @@ margin-top: 10px;
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+   @media (max-width:500px){
+       header{
+           width: 100%;
+           height: 35px;
+           text-align: center;
+           
+       }
+   }
+   .card{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+   }
+    
+
+        
+    
+
+    
     
